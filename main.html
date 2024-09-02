@@ -3,12 +3,65 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+<style>
+ .card {
+    width: 300px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.card-price {
+    font-size: 20px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #777;
+    margin: 10px 0;
+}
+
+.card-button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card-button:hover {
+    background-color: #e5533d;
+}
+
+</style>	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+<div class="card">
+    <img src="https://static.vecteezy.com/system/resources/previews/005/306/515/non_2x/continuous-line-drawing-of-heart-love-single-one-line-art-of-valentine-illustration-free-vector.jpg" alt="Product Image" class="card-image">
+    <h1 class="card-title">Product Title</h1>
+    <p class="card-price">Price Rs.200</p>
+    <p class="card-description">This is a brief description of the product or service.</p>
+    <button class="card-button">Buy Now</button>
+</div>
 </script>
 
 </body>
